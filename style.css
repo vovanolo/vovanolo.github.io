@@ -1,0 +1,92 @@
+/*.men{*/
+/*    height: 10vw;*/
+/*    width: 100px;*/
+/*    color: black;*/
+/*    display: inline-block;*/
+/*    font-size: 25px;*/
+/*    margin-left: 200px;*/
+/*}*/
+
+/*body{*/
+/*    background-color: cornflowerblue;*/
+/*}*/
+
+/*#home{*/
+/*text-align: center;*/
+/*    margin-top: 100px;*/
+/*}*/
+/*#about{*/
+/*    text-align: center;*/
+/*    margin-top: 100px;*/
+/*    display: none;*/
+/*}*/
+/*#skills{*/
+/*    text-align: center;*/
+/*    margin-top: 100px;*/
+/*    display: none;*/
+/*}*/
+/*#works{*/
+/*    text-align: center;*/
+/*    margin-top: 100px;*/
+/*    display: none;*/
+/*}*/
+/*#contact{*/
+/*    text-align: center;*/
+/*    margin-top: 100px;*/
+/*    display: none;*/
+/*}*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 60px;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    /*background-color: beige;*/
+}
+
+section{
+    height: 100vh;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: Times,Serif;
+}
+section:nth-of-type(1){
+    background-color: lightblue;
+}
+section:nth-of-type(2){
+    background-color: lightgreen;
+}
+section:nth-of-type(3){
+     background-color: lightsalmon;
+ }
+section:nth-of-type(1){
+      background-color: lightpink;
+  }
+section:nth-of-type(1){
+       background-color: lightgrey;
+   }
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-link{
+    text-decoration: none;
+    margin: 0 2%;
+    color: white;
+    text-shadow:  0 1px 1px black;
+    /*font-family: '';*/
+    text-transform: uppercase;
+}

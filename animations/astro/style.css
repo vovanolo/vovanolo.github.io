@@ -1,0 +1,20 @@
+.astroboy {
+    display: block;
+    width: 155px;
+    height: 193px;
+    background: url('astro.png');
+    animation: astroboy 0.8s steps(20) infinite;
+}
+
+  
+
+@keyframes astroboy {
+
+    0% {
+        background-position: 0px;
+    }
+
+    100% {
+        background-position: -3025px;
+    }
+}

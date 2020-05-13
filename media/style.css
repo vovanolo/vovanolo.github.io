@@ -1,0 +1,48 @@
+.container{
+    width:50%;
+    height: 100px;
+    background-color: green;
+    margin: 0 auto;
+}
+.box{
+    width:700px;
+    height: 100px;
+    background-color:red;
+    margin: 0 auto;
+}
+@media screen and (max-width:708px){
+    .box{
+        margin-top: 100px;
+        background-color:yellow;
+        width:350px;
+    }
+    .container{
+        display:none;
+    }
+}
+.item{
+    width:200px;
+    height: 200px;
+}
+.green{
+    background-color:green;
+}
+.red{
+    background-color:red;
+}
+.yellow{
+    background-color:yellow;
+}
+.blue{
+    background-color:blue;
+}
+.content{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:614px){
+    .item{
+        margin-top: 40px;
+    }
+}

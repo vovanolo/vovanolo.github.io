@@ -11,7 +11,7 @@ body{
 header{
     height: 100vh;
     max-width: 100%;
-    background-image: url(/images/z.jpg);
+    background-image: url(./images/z.jpg);
     background-size: cover;
 
 }
@@ -141,7 +141,7 @@ menu{
 .section3_item_first{
     width:50%;
     height: 500px;
-    background-image: url(/images/20.jpeg);
+    background-image: url(./images/z.jpeg);
     background-size:cover;
 }
 .section3_item_second{

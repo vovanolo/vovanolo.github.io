@@ -11,7 +11,7 @@ body{
 header{
     height: 100vh;
     max-width: 100%;
-    background-image: url(images/z.jpg);
+    background-image: url(./images/22.jpg);
     background-size: cover;
 
 }
@@ -141,7 +141,7 @@ menu{
 .section3_item_first{
     width:50%;
     height: 500px;
-    background-image: url(images/z.jpeg);
+    background-image: url(./images/20.jpeg);
     background-size:cover;
 }
 .section3_item_second{
@@ -170,22 +170,22 @@ menu{
 }
 .info_photoa{
     height: 200px;
-    background-image: url(images/15.jfif);
+    background-image: url(./images/15.jfif);
     background-size: cover;
 }
 .info_photob{
     height: 200px;
-    background-image: url(images/16.jfif);
+    background-image: url(./images/16.jfif);
     background-size: cover;
 }
 .info_photoc{
     height: 200px;
-    background-image: url(images/17.jfif);
+    background-image: url(./images/17.jfif);
     background-size: cover;
 }
 .info_photod{
     height: 200px;
-    background-image: url(images/18.jfif);
+    background-image: url(./images/18.jfif);
     background-size: cover;
 }
 

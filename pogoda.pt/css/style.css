@@ -1,0 +1,229 @@
+header {
+  height: 100vh;
+  background-image: url("../assets/bg.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.serch-panel {
+  position: absolute;
+  z-index: 3;
+}
+.logo {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+.main-image {
+  height: 250px;
+  width: 400px;
+  background-image: url("../assets/weather.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-text h2 {
+  margin-bottom: 40px;
+}
+
+.button1 {
+  border: none;
+  border-radius: 35px;
+  padding: 1rem 0.5rem;
+  width: 200px;
+  background: #aeabab;
+  color: #ff0000;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.button1:hover {
+  border: #ff0000 solid 1px;
+  font-size: 23px;
+  transition: 0.6s;
+  color: #ff0000;
+  background: #5f5d5d;
+}
+
+.vl {
+  border-left: 5px solid black;
+  height: 235px;
+  position: absolute;
+  right: 20%;
+  top: 18%;
+}
+.vert {
+  position: absolute;
+  right: 18%;
+  top: 50%;
+  text-align: center;
+  /* margin-left: 1250px; */
+  border: none;
+  border-radius: 35px;
+  color: red;
+  transition: 0.7s;
+}
+
+.vert:hover {
+  font-size: 15px;
+  border: #ff0000 solid 1px;
+}
+.social a {
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  float: right;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #000;
+  font-size: 15px;
+}
+
+.instagram a:hover {
+  background: red;
+  color: #fff;
+}
+.telegram a:hover {
+  background: #249bd7;
+  color: #fff;
+}
+
+.social-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+@media (max-width: 1500px) {
+  .vl {
+    right: 8%;
+  }
+  .vert {
+    right: 5%;
+  }
+}
+@media (max-width: 1004px) {
+  .vl {
+    display: none;
+  }
+  .vert {
+    display: none;
+  }
+}
+/* 1440 900 */
+
+.main {
+  background: linear-gradient(300deg, #ced1d6, #bfc0c0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+}
+
+input {
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  padding: 1rem;
+  min-width: 300px;
+  color: #ff0000;
+}
+
+input:focus {
+  outline: none;
+}
+
+.weather {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.weather h2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.subscribe-field button {
+  border: none;
+  border-radius: 35px;
+  padding: 1rem 0.5rem;
+  width: 200px;
+  background: #aeabab;
+  color: #ff0000;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+footer {
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.nav-item {
+  transition: 0.6s;
+  position: relative;
+  padding: 5px;
+  color: white;
+  font-weight: 200;
+}
+.nav-item:hover {
+  color: #303030;
+  font-size: 19px;
+  transition: 0.6s;
+  font-weight: 300;
+}
+
+.nav-item:hover::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background-color: #ff0000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
